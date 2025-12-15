@@ -8,3 +8,9 @@ position in the tuple
 """
 
 people=("John","Tyler","Dash","Kieran","Jayson","Tomoki","Minji","Dawson","Hewitt","Josh","Anson","Cole")
+
+num = int(input("What is your number (must be greater than 0 and less than 10)"))
+if 0 <= num < 10:
+    print("The name corresponding to that number is", people[num])
+else:
+    print("Invalid input")
